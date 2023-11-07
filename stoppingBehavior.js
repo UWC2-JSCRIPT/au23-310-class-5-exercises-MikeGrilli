@@ -1,6 +1,6 @@
 // Do not change
 document.getElementById('cat').addEventListener('click', () => {
-  alert('meow!');
+  alert('meow!'); 
 });
 
 // When clicked, "More info" link should alert "Here's some info"
