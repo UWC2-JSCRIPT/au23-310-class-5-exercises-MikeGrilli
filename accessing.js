@@ -10,7 +10,14 @@ for (let i= 0; i < sun.length; i++) {
 
 // Change the class of the second <li> from to "sun" to "cloudy"
 const list = document.querySelectorAll("li")
-// list[1].classList.remove("sun")
-// list[1].classList.add("coudy")
+
 list[1].classList.replace("sun", "cloudy")
  console.log(list)
+
+ const removeBullets = document.getElementsByTagName("li")
+ 
+ console.log(removeBullets)
+ for (let i = 0; i < removeBullets.length; i++) {
+    removeBullets[i].style.listStyle="none"
+    
+ }
