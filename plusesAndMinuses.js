@@ -88,11 +88,19 @@ subtractButton.style.border = 'none'
 subtractButton.style.borderRadius = '5%'
 subtractButton.style.padding= '10px 20px'
 subtractButton.style.color = '#f2f2f2'
-subtractButton.textContent = 'subtract One'
+subtractButton.textContent = 'Subtract One'
 
 //append subtract button container
 buttonContainer.appendChild(subtractButton)
 
+const footer = document.createElement('p')
+footer.style.color = '#f2f2f2'
+footer.style.textAlign = 'center'
+footer.style.marginTop = '-25px'
+footer.textContent = 'By: Mike Grilli'
+
+//append footer to body
+body.appendChild(footer)
 
 //make counter add one and minus one
 let counter = 0
