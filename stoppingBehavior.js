@@ -14,3 +14,6 @@ moreInfo.addEventListener('click', (e) => {
 // When the bark button is clicked, should alert "Bow wow!"
 // Should *not* alert "meow"
 
+
+  alert('bow wow!'); 
+
