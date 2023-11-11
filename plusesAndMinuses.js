@@ -6,7 +6,7 @@ const body = document.querySelector('body')
 body.style.fontFamily = 'Helvetica'
 body.style.backgroundColor = "#333"
 
-
+//create main Section for all content
 const mainSection = document.createElement('main')
 mainSection.style.color ='#333'
 mainSection.style.width = '375px'
@@ -14,15 +14,14 @@ mainSection.style.backgroundColor = '#f2f2f2'
 mainSection.style.margin = '50px auto'
 mainSection.style.textAlign = 'center'
 mainSection.style.padding = "20px"
-mainSection.style.borderRadius = '25px'
-
+mainSection.style.borderRadius = '10px'
 
 //append main to body
 body.appendChild(mainSection)
 
 //create headline and and add styles
 const headline = document.createElement('h1')
-headline.textContent = 'Click the Buttons'
+headline.textContent = 'Add or Subtract by 1'
 
 //append headline to body
 mainSection.appendChild(headline)
@@ -52,7 +51,7 @@ buttonContainer.style.height = '50px'
 buttonContainer.style.display ='flex'
 buttonContainer.style.justifyContent = 'space-evenly'
 buttonContainer.style.marginTop ='50px'
-buttonContainer.style.marginBottom = '25px'
+buttonContainer.style.marginBottom = '15px'
 
 //append button container
 mainSection.appendChild(buttonContainer)
@@ -95,9 +94,7 @@ subtractButton.textContent = 'subtract One'
 buttonContainer.appendChild(subtractButton)
 
 
-
 //make counter add one and minus one
-
 let counter = 0
 
 function addOrMisusOne() {
