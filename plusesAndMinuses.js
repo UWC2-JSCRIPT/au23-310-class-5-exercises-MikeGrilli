@@ -16,10 +16,10 @@ mainSection.style.textAlign = 'center'
 mainSection.style.padding = "20px"
 mainSection.style.borderRadius = '10px'
 
-//append main to body
+//append mainSection to body
 body.appendChild(mainSection)
 
-//create headline and and add styles
+//create headline and add styles
 const headline = document.createElement('h1')
 headline.textContent = 'Add or Subtract by 1'
 
@@ -30,10 +30,10 @@ mainSection.appendChild(headline)
 const display = document.createElement('div')
 display.style.height = '200px'
 
-//append display area
+//append display to mainSection
 mainSection.appendChild(display)
 
-//create value for display
+//create p for display
 const number = document.createElement('p')
 number.textContent = 0
 number.style.textAlign = 'center'
