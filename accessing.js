@@ -5,10 +5,10 @@ header.textContent = "February 10 Weather Forecast, Seattle"
 
 // Change the styling of every element with class "sun" to set the color to "orange"
 
-const sun = document.querySelectorAll(".sun")
-for (let i= 0; i < sun.length; i++) {
-    sun[i].style.color = "orange"
-}
+const sun = Array.from(document.querySelectorAll(".sun"))
+sun.forEach(els => {
+    els.style.color = 'orange'
+})
 
 // Change the class of the second <li> from to "sun" to "cloudy"
 const list = document.querySelectorAll("li")

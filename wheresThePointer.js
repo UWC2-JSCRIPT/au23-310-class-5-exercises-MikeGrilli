@@ -6,7 +6,7 @@
 
 tableBody.addEventListener('click', (e) => {
     const tr = Array.from(document.querySelectorAll('td'))
-    console.log(tr)
+
     tr.forEach(el => {
         el.style.color = "#333"
         el.style.fontSize = "26px"

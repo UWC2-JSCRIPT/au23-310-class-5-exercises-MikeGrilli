@@ -1,3 +1,4 @@
+stopAlert()
 // Do not change
 document.getElementById('cat').addEventListener('click', (e) => {
   alert('meow!'); 
@@ -13,7 +14,14 @@ moreInfo.addEventListener('click', (e) => {
 
 // When the bark button is clicked, should alert "Bow wow!"
 // Should *not* alert "meow"
+function stopAlert() {
+  document.getElementById('dog').addEventListener('click', (e) =>{
+    alert('Bow wow!'); 
+  })  
+  document.getElementById('cat').isImmediatePropagationStopped('click', (e) => {
+    alert('meow!')
+  });
+  
+}
 
-
-  alert('bow wow!'); 
-
+  
