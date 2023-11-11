@@ -57,7 +57,7 @@ buttonContainer.style.marginBottom = '15px'
 mainSection.appendChild(buttonContainer)
 
 //create add button 
-const AddButton = document.createElement('button');
+const addButton = document.createElement('button');
 AddButton.style.backgroundColor = 'green'
 AddButton.style.border = 'none'
 AddButton.style.borderRadius = '5%'
@@ -129,6 +129,6 @@ function addOrMisusOne() {
 }
 
 
-AddButton.addEventListener('click', addOrMisusOne)
+addButton.addEventListener('click', addOrMisusOne)
 resetButton.addEventListener('click', addOrMisusOne)
 subtractButton.addEventListener('click', addOrMisusOne)
