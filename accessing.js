@@ -1,6 +1,6 @@
 // Change the text of the "Seattle Weather" header to "February 10 Weather Forecast, Seattle"
 const header = document.getElementById("weather-head")
-header.innerText = "February 3 Weather Forecast, Seattle"
+header.textContent = "February 10 Weather Forecast, Seattle"
 
 
 // Change the styling of every element with class "sun" to set the color to "orange"
@@ -16,4 +16,4 @@ const list = document.querySelectorAll("li")
 list[1].classList.replace("sun", "cloudy")
 list[1].removeAttribute("style")
 
-console.log(list)
+// console.log(list)

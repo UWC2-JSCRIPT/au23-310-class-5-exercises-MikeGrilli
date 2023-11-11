@@ -23,5 +23,4 @@ console.log(listItems)
 // Remove (delete) the last paragraph
 // (starts with "Available for purchase now…")
 
-const para = document.querySelector('p')
-para.remove()
+document.querySelector('p').remove()
