@@ -58,15 +58,15 @@ mainSection.appendChild(buttonContainer)
 
 //create add button 
 const addButton = document.createElement('button');
-AddButton.style.backgroundColor = 'green'
-AddButton.style.border = 'none'
-AddButton.style.borderRadius = '5%'
-AddButton.style.padding= '10px 20px'
-AddButton.style.color = '#f2f2f2'
-AddButton.textContent = 'Add One'
+addButton.style.backgroundColor = 'green'
+addButton.style.border = 'none'
+addButton.style.borderRadius = '5%'
+addButton.style.padding= '10px 20px'
+addButton.style.color = '#f2f2f2'
+addButton.textContent = 'Add One'
 
 //append add button to button container
-buttonContainer.appendChild(AddButton)
+buttonContainer.appendChild(addButton)
 
 
 //create reset button 
