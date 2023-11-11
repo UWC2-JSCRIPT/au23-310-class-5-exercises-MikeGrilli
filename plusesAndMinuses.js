@@ -110,7 +110,7 @@ function addOrMisusOne() {
         counter ++ 
         number.textContent = counter
     }
-    else if (this.innerText === 'subtract One' ) {
+    else if (this.innerText === 'Subtract One' ) {
         counter -- 
         number.textContent = counter  
     }
