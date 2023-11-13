@@ -59,7 +59,7 @@ number.style.cssText = `
     text-align: center;
     font-size: 12rem;
     padding: 0;
-    margin: -25px 0 100px 0
+    margin: -25px 0 100px 0;
 `
 
 //append number to display
@@ -75,7 +75,7 @@ buttonContainer.style.cssText = `
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 `
 
 //append button container
@@ -161,7 +161,7 @@ footer.textContent = 'By: Mike Grilli'
 footer.style.cssText = `
     color: #f2f2f2;
     text-align: center;
-    margin-top: -25px
+    margin-top: -25px;
 `
 
 //append footer to body

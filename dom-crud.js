@@ -9,7 +9,6 @@ main.appendChild(aTag)
 
 // Access (read) the data-color attribute of the <img>,
 // log to the console
-
 const dataAttr = document.querySelector('img')
 console.log(dataAttr.dataset.color)
 

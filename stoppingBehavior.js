@@ -1,4 +1,5 @@
 
+
 // Do not change
 document.getElementById('cat').addEventListener('click', (e) => {
   alert('meow!'); 
@@ -15,4 +16,9 @@ moreInfo.addEventListener('click', (e) => {
 // When the bark button is clicked, should alert "Bow wow!"
 // Should *not* alert "meow"
 
-  
+document.getElementById('dog').addEventListener('click', (e) => { 
+  e.preventDefault()
+  alert("Bow Wow!")
+  e.stopPropagation()
+});
+

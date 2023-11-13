@@ -4,7 +4,6 @@ header.textContent = "February 10 Weather Forecast, Seattle"
 
 
 // Change the styling of every element with class "sun" to set the color to "orange"
-
 const sun = Array.from(document.querySelectorAll(".sun"))
 sun.forEach(el => {
     el.style.color = 'orange'
