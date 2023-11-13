@@ -37,7 +37,7 @@ headline.style.cssText = `
     font-weight: 100;
     font-size: 4.25rem;
     font-family: 'Lobster';
-    margin: 0 0 25px 0
+    margin: 0 0 25px 0;
 `
 
 //append headline to body
